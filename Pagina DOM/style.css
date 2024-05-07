@@ -1,0 +1,283 @@
+
+body{
+    background-color: rgb(59, 58, 58);
+}
+
+
+
+#galeria{
+    background-color: rgb(36, 37, 37);
+    padding: 240px;
+    display: grid;
+    grid-gap: 10px;
+grid-template-columns:  1fr  1fr  1fr;
+border: 1px solid black;
+color: aliceblue;
+font-size: 3rem;
+
+}
+
+
+#texto{
+    background-color: rgb(187, 187, 194);
+    color: aliceblue;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid black;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    padding: 2rem;
+}
+
+
+#targeta1{
+
+    background-color: rgb(14, 24, 41);
+padding: 5rem;
+border: 10px solid rgb(7, 3, 248);
+border-radius: 20px;
+}
+
+#targeta2{
+   
+    background-color: rgb(14, 24, 41);
+    padding: 100px;
+    border: 10px solid rgb(7, 3, 248);
+    border-radius: 20px;
+}
+
+#targeta3{
+    
+    background-color: rgb(14, 24, 41);
+    padding: 100px;
+    border: 10px solid rgb(7, 3, 248);
+    border-radius: 20px;
+}
+
+#targeta4{
+    
+    background-color: rgb(14, 24, 41);
+    padding: 100px;
+    border: 10px solid rgb(7, 3, 248);
+    border-radius: 20px;
+}
+
+
+#targeta5{
+    background-color: rgb(14, 24, 41);
+    padding: 100px;
+    border: 10px solid rgb(7, 3, 248);
+    border-radius: 20px;
+    border-radius: 20px;
+}
+
+#targeta6{
+    background-color: rgb(14, 24, 41);
+    padding: 100px;
+    border: 10px solid rgb(7, 3, 248);
+    border-radius: 20px;
+}
+
+#targeta7{
+    background-color: rgb(14, 24, 41);
+    padding: 100px;
+    border: 10px solid rgb(7, 3, 248);
+    border-radius: 20px;
+}
+
+#targeta8{
+    background-color: rgb(14, 24, 41);
+    padding: 100px;
+    border: 10px solid rgb(7, 3, 248);
+    border-radius: 20px;
+}
+
+#targeta9{
+    background-color: rgb(14, 24, 41);
+    padding: 100px;
+    border: 10px solid rgb(7, 3, 248);
+    border-radius: 20px;
+}
+
+
+/* Footer */
+#pie{
+    background-color: brown;
+    padding: 80px;
+}
+
+
+/* Botones */
+
+#boton1{
+    padding: 25px;
+    font-size: xx-large;
+    text-align: center;
+    border-radius: 30px;
+    width: 20%;
+}
+
+#boton2{
+    padding: 25px;
+    font-size: xx-large;
+    text-align: center;
+    border-radius: 30px;
+    width: 20%;
+}
+
+#boton3{
+    padding: 25px;
+    font-size: xx-large;
+    text-align: center;
+    border-radius: 30px;
+    width: 20%;
+}
+
+#boton4{
+    padding: 25px;
+    font-size: xx-large;
+    text-align: center;
+    border-radius: 30px;
+    width: 20%;
+}
+
+#boton5{
+    padding: 25px;
+    font-size: xx-large;
+    text-align: center;
+    border-radius: 30px;
+    width: 20%;
+}
+
+#boton6{
+    padding: 25px;
+    font-size: xx-large;
+    text-align: center;
+    border-radius: 30px;
+    width: 20%;
+}
+
+#boton7{
+    padding: 25px;
+    font-size: xx-large;
+    text-align: center;
+    border-radius: 30px;
+    width: 20%;
+}
+
+#boton8{
+    padding: 25px;
+    font-size: xx-large;
+    text-align: center;
+    border-radius: 30px;
+    width: 20%;
+}
+
+#boton9{
+    padding: 25px;
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 30px;
+    width: 20%;
+}
+
+#boton9:hover{
+    background-color: rgb(101, 101, 93);
+}
+
+
+/* Carrito */
+
+#carrito2{
+    padding: 5rem;
+    font-size: xx-large;
+    display: flex;
+    background-color: rgb(45, 46, 46);
+   height: 90%;
+   border: 1rem solid black;
+   justify-content: center;
+   opacity: 80%;
+
+}
+
+#carrito{
+    padding: 1.5rem;
+    font-size: xx-large;
+}
+
+#nav{
+    display: flex;
+
+}
+
+
+
+/* Estilos Carrito */
+
+#espacio1{
+    padding: 10rem;
+    background-color: rgb(46, 45, 46);
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border-radius: 5rem;
+    color: aliceblue;
+    
+}
+
+.carrito {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #959090;
+    width: 100%;
+}
+
+.tabla-carrito {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-carrito th,
+.tabla-carrito td {
+    padding: 8px;
+    border: 1px solid #888787;
+    text-align: left;
+}
+
+.total {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.boton-vaciar {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#agregarFila{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    
+}
+
+#title{
+    font-size: 1.5em;
+    
+}
+
+
