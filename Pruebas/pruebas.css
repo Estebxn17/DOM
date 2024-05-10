@@ -1,4 +1,23 @@
-body{
-  background-color: aquamarine;
+.container {
+  display: flex;
+  justify-content: space-between;
 }
 
+.products {
+  flex: 1;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.cart {
+  flex: 1;
+}
+
+.cart-items {
+  border: 1px solid #ccc;
+  padding: 10px;
+}

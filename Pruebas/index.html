@@ -1,51 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0"
-		/>
-		<title>Tienda</title>
-		<link rel="stylesheet" href="pruebas.css" />
-	</head>
-	<body>
-		
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de Compras</title>
+  <link rel="stylesheet" href="pruebas.css">
+</head>
+<body>
+  <div class="container">
+    <div class="products">
+      <div class="product">
+        <img src="product1.jpg" alt="Product 1">
+        <h3>Producto 1</h3>
+        <p>Precio: $10</p>
+        <p>Marca: Marca 1</p>
+        <button class="add-to-cart" data-name="Producto 1" data-price="10">Agregar al Carrito</button>
+      </div>
+      <!-- Agrega más productos aquí -->
+    </div>
+    <div class="cart">
+      <h2>Carrito de Compras</h2>
+      <div class="cart-items"></div>
+    </div>
+  </div>
 
-<header class="header">
-<div class="menu-container">
-
- <a href="#"></a>
- <input type="checkbox" name="" id="menu">
-<label for="menu"><img src="/img/pc1.webp" class="iconom" alt=""></label>
-<nav class="nav-bar">
-  <ul>
-    <li><a href="a">Inicio</a></li>
-    <li><a href="a">Ayuda</a></li>
-    <li><a href="a">Nosotros</a></li>
-    <li><a href="a">Carrito</a></li>
-  </ul>
-
-</nav>
-
-<div>
-  <ul>
-    <li class="submenu">
-      <img src="/img/pc1.webp"   id="carrito"  alt="">
-      
-    </li>
-  </ul>
-</div>
-</div>
-</header>
-
-
-
-
-
-
-        
-        <script src="script.js"></script>
-	</body>
+  <script src="script.js"></script>
+</body>
 </html>
