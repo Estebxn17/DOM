@@ -1,0 +1,20 @@
+/* Segundo Tema */
+
+/* Primer EJ */
+.producto {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .imagen-ampliada {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+/* Tercer EJ */
+.completed {
+    text-decoration: line-through;
+    color: #999;
+  }

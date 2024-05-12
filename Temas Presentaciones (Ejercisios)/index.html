@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercisios</title>
+    <style>
+        #elemento {
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            position: absolute;
+        }
+    </style>
+
+    <!-- Ejercisio 3 mouseenter estilo -->
+
+    <style>
+        #lienzo {
+        border: 1px solid black;
+        }
+    </style>
+
+</head>
+<body>
+    
+<!-- InnerText Inicio -->
+<h1 id="principal">Titulo</h1>
+<p class="contenido">Funcionando</p>
+<!-- InnerText  Final -->
+
+<!-- Segundo Tema Inicio-->
+
+<!-- Primer Ejemplo INC -->
+<p>En esta página, tenemos una galería de productos con imágenes y al hacer clic en un producto, se muestra la imagen ampliada en un área específica de la página.
+
+    En este escenario, se utiliza get attribute para obtener la URL de la imagen del producto seleccionado y set attribute para mostrar esa imagen ampliada.
+     Aquí el primer ejemplo:
+    </p>
+<div class="galeria">
+<img class="producto" src="img/download (1).jpg" alt="Producto 1" data-imagen-ampliada="img/download (1).jpg">
+<img class="producto" src="img/download (2).jpg" alt="Producto 2" data-imagen-ampliada="img/download (2).jpg">
+<!-- ... más productos ... -->
+</div>
+<div class="imagen-ampliada-container">
+<img class="imagen-ampliada" src="img/download.jpg" alt="Imagen Ampliada">
+<p>En este ejemplo, cada imagen de producto tiene un atributo adicional data-imagen-ampliada que almacena la URL de la imagen ampliada correspondiente. Cuando se hace clic en un producto, el código JavaScript utiliza get attribute para obtener esta URL y luego utiliza set attribute para mostrar esa imagen ampliada en el área designada.
+</p>
+</div>
+<!-- Primer Ejemplo FIN -->
+
+<!-- Segundo Ejemplo INC -->
+<div id="miDiv" style="width: 200px; height: 200px; background-color: #ff0000;"></div>
+  <br>
+  <button id="cambiarColorBtn">Cambiar Color</button>
+
+
+  <hr>
+// En este ejemplo, cuando se habre el archivo HTML en un navegador y se hace clic en el botón "Cambiar Color", verás que el color de fondo del div cambia de rojo a verde.
+<!-- Segundo Ejemplo FIN -->
+
+<!-- Tercer Ejemplo INC -->
+
+<p>aqui creamos un mini proyecto de una lista de tareas (to-do list) en el que podremos agregar tareas, marcarlas como completadas y eliminarlas. Utilizaremos JavaScript para manipular el DOM y gestionar las tareas.</p>
+
+<h1>Lista de Tareas</h1>
+<input type="text" id="taskInput" placeholder="Agregar nueva tarea">
+<button id="addTaskBtn">Agregar Tarea</button>
+<ul id="taskList"></ul>
+
+
+<hr>
+<p>En este ejemplo, hemos creado una lista de tareas interactiva. Al ingresar una tarea en el campo de entrada y hacer clic en el botón "Agregar Tarea", se agrega la tarea a la lista. Cada tarea se puede marcar como completada al hacer clic en ella y se puede eliminar haciendo clic en un botón asociado.
+
+  El código JavaScript utiliza tanto get como set, por ejemplo, al obtener referencias a elementos del DOM (getElementById) y al establecer atributos o contenido de elementos (textContent, classList, etc.).</p>
+
+<!-- Tercer Ejemplo Final -->
+
+
+
+<!-- Tema Onselect INC -->
+
+<input type="text" value="hola Mundo" onselect="miFuncion()">
+    <p id="demo"></p>
+
+<!-- Tema Onselect FIN -->
+
+
+<!-- Tema OnFocus INC -->
+
+
+<form >
+    <input type="text" id="nombre" value="nombre" onfocus="vaciar(this)"><br>
+    <input type="text" id="mail" value="example@gmail.com" onfocus="vaciar(this)"><br>
+
+    
+    
+</form>
+
+<!-- Tema OnFocus FIN -->
+
+
+
+
+<!-- Tema Evento Target -->
+
+
+<!-- Primer Ejemplo INC -->
+
+
+<button id="myButton">Click</button>
+
+<!-- Primer Ejemplo FIN -->
+
+<!-- Segundo Ejemplo INC -->
+
+<button id="btn1">Botón 1</button>
+    <button id="btn2">Botón 2</button>
+    <button id="btn3">Botón 3</button>
+
+
+<!-- Segundo Ejemplo FIN -->
+
+<!-- Tercer Ejemplo INC -->
+
+<button class="cambioColor">Cambiar color</button>
+
+<!-- Tercer Ejemplo FIN -->
+
+<!-- Fin de Tema Evento Target -->
+
+
+<hr>
+<!-- Tema On Change Inicio -->
+
+<!-- Primer EJ On Change INC -->
+<select name="cambio" id="color-select">
+    <option value="red">Rojo</option>
+    <option value="blue">Azul</option>
+    <option value="green">Verde</option>
+</select>
+<!-- Primer EJ On Change FIN-->
+
+<!-- Segundo EJ On Change INC -->
+
+<input type="checkbox" name="Mostrar" id="mostrarCheckbox">
+<div id="elemento" style="display: none;">Este es Un elemento Oculto</div>
+
+<!-- Segundo EJ On Change FIN -->
+
+<!-- Tercer EJ On Change INC -->
+
+<h1 id="texto">Texto de Ejemplo</h1>
+
+<select name="color" id="colorSelect">
+    <option value="black">Negro</option>
+    <option value="red">Rojo</option>
+    <option value="blue">Azul</option>
+    <option value="green">Verde</option>
+</select>
+<!-- Tercer EJ On Change FIN -->
+
+<!-- Fin de Tema One Change -->
+
+<!-- Tema Daniel INC -->
+
+<h1>Inicio de sesión</h1>
+
+<form id="inicio">
+
+<label for="nombreUsuario">Nombre de usuario: </label>
+
+<input type="text" id="nombreUsuario" required><br><br>
+
+<label for="contraseña">Contraseña: </label>
+
+<input type="password" id="contraseña" required><br><br>
+
+<button type="submit">Inicio</button>
+
+</form>
+
+<!-- Tema Daniel FIN -->
+
+<!-- Evento Prevent Default Inicio -->
+
+<a href="https://www.google.com/webhp?hl=es-419&sa=X&ved=0ahUKEwiugfml200GAxXzQjABHRwLCtgQPAgJ" id="miEnlace">Haz clic aquí</a>
+
+<input type="text" id="formulario">
+
+
+
+<button type="button" id="miBoton">SUMBIT</button>
+
+
+
+<!-- Evento Prevent Default FIN -->
+
+
+<!-- Session Storage INC -->
+
+
+<!-- Primer EJ INC -->
+
+<button onclick="guardarDatos()">Guardar Datos</button>
+    <button onclick="mostrarDatos()">Mostrar Datos</button>
+
+<!-- Primer EJ FIN -->
+
+<!-- Segundo EJ INC -->
+<h1 id="bienvenida"></h1>
+<!-- Segundo EJ FIN -->
+
+<!-- Session Storage FIN -->
+
+
+<!-- Tema moseenter INC -->
+
+<!-- Primer EJ INC -->
+
+<button id="boton">Agregar al carrito</button>
+
+<!-- Primer EJ FIN -->
+
+<hr>
+<!-- Segundo EJ INC -->
+
+<div id="elemento"></div>
+
+<!-- Segundo EJ FIN -->
+
+<hr>
+
+<!-- Tema moseenter FIN -->
+
+<!-- Tema ON reset INC -->
+
+
+<!-- Primer EJ INC -->
+<form id="miFormulario" onreset="manejarRestablecimiento()"></form>
+<input type="text" id="nombre" name="nombre">
+<button type="reset">Restablecer</button>
+
+<!-- Primer EJ FIN -->
+
+<!-- Segundo EJ INC -->
+
+<form id="miFormulario" onreset=" return confirmarRestablecimiento()"></form>
+<input type="text" id="nombre" name="nombre">
+<button type="submit">Enviar</button>
+<button type="reset">Restablecer</button>
+
+<!-- Segundo EJ FIN -->
+
+<!-- Tercer EJ INC -->
+
+<form id="miFormulario" onreset="guardarDatos()"></form>
+<input type="text" id="nombre" name="nombre">
+<button type="reset">Restablecer</button>
+
+<!-- Tercer EJ FIN -->
+
+
+
+
+<!-- Tema On reset FIN -->
+
+    <script src="script.js"></script>
+</body>
+</html>
